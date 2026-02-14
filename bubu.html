@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Bubu · love day special 💖</title>
+       <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heart-bg" id="heartBg"></div>
+
+    <main class="valentine-card" id="mainCard">
+        <h1>💗 bubu 💗</h1>
+        <div class="sub">14 feb · love day uk</div>
+
+        <!-- image area (ABOVE the words) -->
+        <div class="image-area" id="imageArea">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23ffc1cc' /%3E%3Cpath d='M30 40 Q40 30 50 40 Q60 30 70 40' stroke='%23b3415e' stroke-width='6' fill='none' /%3E%3Ccircle cx='35' cy='30' r='6' fill='%23ffffff' /%3E%3Ccircle cx='65' cy='30' r='6' fill='%23ffffff' /%3E%3Ccircle cx='37' cy='32' r='2' fill='%23000' /%3E%3Ccircle cx='63' cy='32' r='2' fill='%23000' /%3E%3C/svg%3A"
+                 alt="cute heart face" class="dynamic-image" id="mainImage">
+        </div>
+
+        <!-- message right below image (as requested) -->
+        <div class="message-bubble" id="mainMessage">
+            will u be mine, bubu? 💘
+        </div>
+
+        <!-- yes/no buttons container (no button moves) -->
+        <div class="buttons-container" id="btnContainer">
+            <button class="btn btn-yes" id="yesBtn">YES 💖</button>
+            <button class="btn btn-no" id="noBtn">no 💔</button>
+        </div>
+
+        <!-- hidden love message (visible after YES) -->
+        <div class="hidden-love" id="loveMessage">
+            💞 i knew it, bubu! 💞<br>
+            <span style="font-size:2rem;">🌹 you're my forever 🌹</span>
+        </div>
+
+        <div class="footer-note">
+            ❤️ bubu & you · 14 feb ❤️
+        </div>
+    </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
